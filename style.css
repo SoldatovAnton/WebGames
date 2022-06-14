@@ -1,0 +1,57 @@
+body {
+   display: block;
+   margin: 0px;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.headName {
+   text-align: center;
+}
+
+.gameCard {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 0 auto;
+}
+
+.game {
+   cursor: pointer;
+   display: grid;
+   text-align: center;
+   padding: 7px;
+   border-radius: 14px;
+   max-width: 250px;
+   max-height: 300px;
+   margin: 20px auto;
+   background-color: black;
+}
+
+.game:hover {
+   background: #53ea93;
+}
+
+.game:hover {
+   -webkit-transform: scale(1.12);
+   -ms-transform: scale(1.12);
+   transform: scale(1.12);
+   -webkit-transform: rotateZ(1deg);
+   -ms-transform: rotateZ(1deg);
+   transform: rotateZ(1deg);
+}
+
+.gameIMG {
+   display: block;
+   position: relative;
+   border-radius: 14px;
+}
+
+.gameIMG img {
+   height: 240px;
+   width: 240px;
+   border-radius: 14px;
+}
+
+.gameNAME {
+   color: white;
+   font-size: 18px;
+}

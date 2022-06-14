@@ -1,0 +1,84 @@
+.background {
+	background-image: url(img/bg.jpg);
+}
+
+.game-zone {
+	position: relative;
+	width: 800px;
+	height: 800px;
+	border: 15px solid red;
+	padding: 0px;
+	margin: 2px auto;
+	background-color: grey;
+}
+
+a.startGame_button {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: .5em 2em;
+	outline: none;
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: #FDBE33 #000 #D77206;
+	border-radius: 6px;
+	background: linear-gradient(#F3AE0F, #E38916) #E38916;
+	transition: 0.2s;
+}
+
+a.startGame_button:hover {
+	background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+	cursor: pointer;
+}
+
+a.startGame_button:active {
+	background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.startGame {
+	margin: 0 auto;
+	width: 500px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.startGame_left {
+	width: 135px;
+}
+
+.restartButton {
+	width: 105px;
+	margin: 0 auto;
+}
+
+.timer {
+	color: white;
+	font-family: "Open Sans";
+	font-size: 20px;
+	margin-top: 9px;
+	margin-bottom: 0px;
+}
+
+.player {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-image: url(img/plane-top.png);
+	background-repeat: no-repeat;
+}
+
+.gun {
+	position: absolute;
+	height: 33px;
+	width: 26px;
+	background-image: url(img/gun-bottom.png);
+	background-repeat: no-repeat;
+}
+
+.bullet {
+	position: absolute;
+	height: 16px;
+	width: 16px;
+	background-image: url(img/bullet.png);
+	background-repeat: no-repeat;
+}
